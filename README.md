@@ -6,8 +6,7 @@ i used webpack only with different plugins and loaders
 feel free to use it and if u have any issue address it
 bye bye <3
 
-#How To Use:
-
+<h3>How To Use:</h3>
 open terminal or CMD
 clone the repo by typing this command in the terminal/cmd
 git clone https://github.com/ChaosEvolved/webpack-boilerplate
