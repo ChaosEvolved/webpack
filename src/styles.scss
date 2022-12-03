@@ -1,0 +1,39 @@
+html {
+  cursor: default;
+  margin: 0;
+  padding: 0;
+}
+html::selection {
+  background-color: black;
+}
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  height: 400px;
+  margin-top: 20%;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation: infinite animation 1.6s;
+}
+
+.logo::selection {
+  background: black;
+  transition: infinite 0.2 ease-in-out;
+  position: relative;
+}
+
+@keyframes animation {
+  0% {
+    opacity: 1;
+    scale: 100%;
+  }
+
+  1% {
+    scale: 90%;
+    opacity: 0;
+  }
+}
