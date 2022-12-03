@@ -6,7 +6,7 @@ i used webpack only with different plugins and loaders
 feel free to use it and if u have any issue address it
 bye bye <3
 
-How To Use:
+#How To Use:
 
 open terminal or CMD
 clone the repo by typing this command in the terminal/cmd
